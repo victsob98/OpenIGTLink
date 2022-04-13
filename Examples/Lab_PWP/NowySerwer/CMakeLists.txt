@@ -9,6 +9,6 @@ find_package(OpenIGTLink REQUIRED)
 
 include(${OpenIGTLink_USE_FILE})
 
-ADD_EXECUTABLE(NowySerwe   NowySerwer.cxx)
+ADD_EXECUTABLE(NowySerwer   NowySerwer.cxx)
 TARGET_LINK_LIBRARIES(NowySerwer OpenIGTLink)
 
